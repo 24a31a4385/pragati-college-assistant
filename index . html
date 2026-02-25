@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pragati College Assistant</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #002147;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #004080;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: yellow;
+        }
+        section {
+            background-color: white;
+            margin: 20px 30px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #002147;
+        }
+        input, select, button {
+            padding: 8px;
+            margin: 8px 0;
+            width: 80%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #002147;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #004080;
+        }
+        footer {
+            background-color: #002147;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #answer {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pragati Engineering College</h1>
+    <p>Your College Assistant Website</p>
+</header>
+
+<nav>
+    <a href="#fees">Fees</a>
+    <a href="#canteen">Canteen</a>
+    <a href="#library">Library</a>
+    <a href="#bus">Bus</a>
+    <a href="#assistant">Ask</a>
+</nav>
+
+<section id="fees">
+    <h2>College Fees</h2>
+    <p>Tuition Fee: ₹50,000 per year</p>
+    <p>Library Fee: ₹2,000 per year</p>
+    <p>Exam Fee: ₹1,500 per semester</p>
+</section>
+
+<section id="canteen">
+    <h2>Canteen Items</h2>
+    <ul>
+        <li>Tea - ₹10</li>
+        <li>Idli - ₹15</li>
+        <li>Sandwich - ₹30</li>
+        <li>Meal - ₹60</li>
+    </ul>
+</section>
+
+<section id="library">
+    <h2>Library Books</h2>
+    <ul>
+        <li>Mathematics by R.D. Sharma - Available</li>
+        <li>Physics by H.C. Verma - Available</li>
+        <li>Computer Networks by Tanenbaum - Not Available</li>
+        <li>DBMS by Korth - Available</li>
+    </ul>
+</section>
+
+<section id="bus">
+    <h2>Bus Fees</h2>
+    <ul>
+        <li>Route A: ₹500 per month</li>
+        <li>Route B: ₹600 per month</li>
+        <li>Route C: ₹700 per month</li>
+    </ul>
+</section>
+
+<section id="assistant">
+    <h2>Ask College Assistant</h2>
+    <input type="text" id="question" placeholder="Type your question here">
+    <button onclick="getAnswer()">Ask</button>
+    <div id="answer"></div>
+</section>
+
+<footer>
+    © 2026 Pragati Engineering College | All Rights Reserved
+</footer>
+
+<script>
+function getAnswer() {
+    var q = document.getElementById("question").value.toLowerCase();
+    var ans = "";
+    
+    if(q.includes("college fee")) {
+        ans = "Tuition Fee: ₹50,000/year, Library Fee: ₹2,000/year, Exam Fee: ₹1,500/semester";
+    } else if(q.includes("canteen")) {
+        ans = "Tea ₹10, Idli ₹15, Sandwich ₹30, Meal ₹60";
+    } else if(q.includes("library")) {
+        ans = "Mathematics by R.D. Sharma - Available, Physics by H.C. Verma - Available, DBMS by Korth - Available";
+    } else if(q.includes("bus")) {
+        ans = "Route A ₹500/month, Route B ₹600/month, Route C ₹700/month";
+    } else {
+        ans = "Sorry, I don't have info on that. Please ask about Fees, Canteen, Library, or Bus.";
+    }
+    
+    document.getElementById("answer").innerText = ans;
+}
+</script>
+
+</body>
+</html>

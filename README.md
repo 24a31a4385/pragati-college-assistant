@@ -21,7 +21,7 @@ It also includes a small Assistant Feature where users can type questions and ge
 LIVE WEBSITE
 
 
- https://yourusername.github.io/Pragati-Engineering-College-Assistant/
+ https://24a31a4385.github.io/Pragati-Engineering-College-Assistant/
 
 (Replace the above link with your actual GitHub Pages link)
 

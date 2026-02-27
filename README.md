@@ -23,17 +23,7 @@ LIVE WEBSITE
 
  https://24a31a4385.github.io/Pragati-Engineering-College-Assistant/
 
-(Replace the above link with your actual GitHub Pages link)
-
- FEATURES
-
-✔ Simple & Clean UI
-✔ Easy Navigation
-✔ Keyword-Based Assistant
-✔ Quick Access to Information
-✔ Responsive Design
-
-🛠 TECHNOLOGIES USED
+TECHNOLOGIES USED
 
 HTML – Structure
 

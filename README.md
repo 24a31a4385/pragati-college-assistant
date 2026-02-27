@@ -21,7 +21,7 @@ It also includes a small Assistant Feature where users can type questions and ge
 LIVE WEBSITE
 
 
- https://24a31a4385.github.io/Pragati-College-Assistant/
+ https://24a31a4385.github.io/pragati-college-assistant/
 
 TECHNOLOGIES USED
 

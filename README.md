@@ -1,37 +1,45 @@
 Pragati Engineering College Assistant
 
-This is a simple College Assistant Website created using HTML, CSS, and JavaScript.
+A simple and interactive College Assistant Website developed using HTML, CSS, and JavaScript.
 
-Project Description
+PROJECT OVERVIEW
 
-This website provides basic information about:
+The Pragati Engineering College Assistant is a beginner-friendly web application that helps students access important college information quickly and easily.
 
-College Fees
+It provides details about:
 
-Canteen Items
+💰 College Fees
 
-Library Books
+🍽 Canteen Items
 
-Bus Routes
+📚 Library Books
 
-It also includes a small assistant feature where users can type questions and get answers based on keywords.
+🚌 Bus Routes
 
-Technologies Used
+It also includes a small Assistant Feature where users can type questions and get answers based on keywords using JavaScript.
 
-HTML
+LIVE WEBSITE
 
-CSS
 
-JavaScript
+ https://yourusername.github.io/Pragati-Engineering-College-Assistant/
 
-How to Run
+(Replace the above link with your actual GitHub Pages link)
 
-Download the project.
+ FEATURES
 
-Open index.html in any web browser.
+✔ Simple & Clean UI
+✔ Easy Navigation
+✔ Keyword-Based Assistant
+✔ Quick Access to Information
+✔ Responsive Design
 
-Use the navigation menu or ask questions in the assistant section.
+🛠 TECHNOLOGIES USED
 
-Author
+HTML – Structure
 
+CSS – Styling
+
+JavaScript – Assistant Logic
+
+AUTHOR
 Tabassum Parveen
